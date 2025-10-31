@@ -1,0 +1,29 @@
+# Ignore all CSV files (documentation lives in narcissist-book/@docs)
+*.csv
+
+# Ignore documentation files (moved to narcissist-book/@docs/social-media)
+*.md
+!README.md
+
+# Ignore Python scripts (moved to narcissist-book/@docs)
+*.py
+
+# Ignore shell scripts (moved to narcissist-book/@docs)
+*.sh
+
+# Ignore reference and working directories
+_reference/
+automation/
+content-library/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Keep images directory structure
+!images/
+!images/**/*.png
+!images/**/*.jpg
+!images/**/*.jpeg
